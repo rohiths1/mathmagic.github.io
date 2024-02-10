@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="icon" type="image/x-icon" href="file:///E:/Rohith/FILES/PRACTICE/webdev/codsoft/Calculator/calculatorimg.jpg">
+    <title>Calculator | Rohith S</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+</link>
+</head>
+
+
+<body>
+    <div class="absolute"><img src= "file:///E:/Rohith/FILES/PRACTICE/webdev/codsoft/Calculator/mathmagiclogo.JPG" alt = "logo" title="logo" style = "float:left;width:380px; height:250px;"></div>
+    <div class="absolute1"><img src= "file:///E:/Rohith/FILES/PRACTICE/webdev/college%20practice/portfolio%20website/dpcircle.png" alt = "ROHITH S" title="Rohith S" style = "float:right;width:300px; height:250px;">
+        
+        <br><br><br>
+            <a href="https://www.linkedin.com/in/rohith-s-509542278/" title="Rohith S - LinkedIn" target="_blank"><img src= "file:///E:/Rohith/FILES/PRACTICE/webdev/college%20practice/portfolio%20website/linkedin.png" alt = "LinkedIn" style = "width:60px; height:35px;"></a>
+            <a href="https://www.instagram.com/dr_rohiths/" title="Rohith S - Instagram" target="_blank"><img src= "file:///E:/Rohith/FILES/PRACTICE/webdev/college%20practice/portfolio%20website/insta.png" alt = "Instagram" style = "width:60px; height:35px;"></a>
+            <a href="https://wa.me/+919940951341" title="Rohith S - WhatsApp" target="_blank"><img src= "file:///E:/Rohith/FILES/PRACTICE/webdev/college%20practice/portfolio%20website/whatsapp.png" alt = "Whatsapp" style = "width:50px; height:35px;"></a>
+            <a href = "mailto:s.rohith0330@gmail.com" title="Rohith S - EMail" target="_blank"><img src= "file:///E:/Rohith/FILES/PRACTICE/webdev/college%20practice/portfolio%20website/gmail.png" alt = "LinkedIn" style = "width:58px; height:35px;"></a>
+            </div>
+    </div>
+
+    <div class="toggle-container">
+        
+        <input type="checkbox" id="themeToggle">
+        <label for="themeToggle">Toggle</label>
+    </div>
+
+
+
+<h1>Calculator By Rohith S</h1>
+<p class="warning">Don't divide by zero.</p>
+<div id="calculator" class="calculator">
+    <div id="viewer" class="viewer"></div>
+
+    <button id="clear" class="clear">C</button>
+    <button data-ops="sin" class="ops">sin</button>
+    <button data-ops="cos" class="ops">cos</button>
+    <button data-ops="tan" class="ops">tan</button>
+
+    <button data-ops="square" class="ops">x<sup>2</sup></button>
+    <button data-ops="cube" class="ops">x<sup>3</sup></button>
+    <button data-ops="power" class="ops">x<sup>y</sup></button>
+    <button data-ops="square root" class="ops">&#8730; x</button>
+
+<button class="num" data-num="7">7</button>
+<button class="num" data-num="8">8</button>
+<button class="num" data-num="9">9</button>
+
+<button data-ops="plus" class="ops">+</button>
+
+<button class="num" data-num="4">4</button>
+<button class="num" data-num="5">5</button>
+<button class="num" data-num="6">6</button>
+
+<button data-ops="minus" class="ops">-</button>
+
+<button class="num" data-num="1">1</button>
+<button class="num" data-num="2">2</button>
+<button class="num" data-num="3">3</button>
+<button data-ops="times" class="ops">*</button>
+		<button class="num" data-num="0">0</button>
+		<button class="num" data-num=".">.</button>
+
+<button id="equals" class="equals" data-result="">=</button>
+
+<button data-ops="divided by" class="ops">/</button>
+
+<button id="reset" class="reset">Reset</button>
+</div>
+
+<script src="./script.js"></script>
+<script src="./dark-light-theme-toggle.js"></script>
+</body>
+
+</html>
